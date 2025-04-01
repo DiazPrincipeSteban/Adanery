@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Feliz Cumpleaños!</title>
+
+    <style>
+        /* Estilos generales */
+        body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            background: url('https://i.pinimg.com/736x/ed/cd/c2/edcdc2636750d2b8246db9f3f8034220.jpg') no-repeat center center/cover;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            transition: background-image 1.5s ease-in-out;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            font-family: 'Arial', sans-serif;
+            color: #fff;
+            text-shadow: 0 0 20px #00aaff;
+            box-sizing: border-box;
+            overflow-x: hidden;
+        }
+
+        /* Título principal */
+        h1 {
+            font-size: 4rem;
+            animation: brillo 2s infinite alternate;
+            margin-top: 20px;
+            background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+            padding: 10px 20px;
+            border-radius: 10px;
+        }
+
+        @keyframes brillo {
+            from { text-shadow: 0 0 20px #00aaff; }
+            to { text-shadow: 0 0 30px #66ccff; }
+        }
+
+        /* Subtítulos */
+        .subtitulo {
+            font-size: 2rem;
+            margin-top: 20px;
+            text-shadow: 0 0 15px #66ccff;
+            background: rgba(0, 0, 0, 0.5); /* Transparencia para subtítulos */
+            padding: 5px 15px;
+            border-radius: 8px;
+        }
+
+        /* Estilo de imágenes */
+        .imagenes-horizontal {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+        }
+
+        .imagen {
+            width: 300px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px #00ccff;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            opacity: 0.85; /* Efecto de transparencia en imágenes */
+        }
+
+        .imagen:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 25px #66ccff;
+            opacity: 1; /* Al pasar el ratón, vuelve a ser completamente visible */
+        }
+
+        /* Cuadro de texto con efecto neón */
+        .texto-neon {
+            background: rgba(0, 0, 50, 0.6); /* Hacemos el cuadro más translúcido */
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 0 15px #00ccff;
+            width: 80%;
+            max-width: 800px;
+            text-align: center;
+            margin-top: 15px;
+            font-size: 1.2rem;
+            line-height: 1.6;
+            text-shadow: 0 0 10px #00ccff;
+            color: #fff;
+        }
+
+        /* Colores animados para los textos */
+        .texto-neon p span {
+            animation: colorTexto 3s infinite alternate;
+        }
+
+        @keyframes colorTexto {
+            0% { color: #00ccff; }
+            33% { color: #ff66ff; }
+            66% { color: #ffcc00; }
+            100% { color: #66ff66; }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Título principal -->
+    <h1>🎉 ¡Feliz Cumpleaños, Adanery! 🎉</h1>
+
+    <!-- Sección de recuerdos -->
+    <h2 class="subtitulo">✨ El Inicio de una Grandiosa Amistad ✨</h2>
+    <img src="https://images.alphacoders.com/121/1216722.jpg" alt="Recuerdo 1" class="imagen">
+    <div class="texto-neon">
+        <p><span>Nuestra amistad comenzó con un rol que ambos ideamos.</span> Aprecio mucho que haya empezado así, porque con el tiempo nos fuimos conociendo más y más. <span>Gracias por darme la oportunidad de ser tu amigo. ❤️</span></p>
+    </div>
+
+    <h2 class="subtitulo">🌟 Los Días con una Gran Amiga 🌟</h2>
+    <div class="imagenes-horizontal">
+        <img src="https://i.pinimg.com/originals/4f/7d/d0/4f7dd0269b63006aae436900b762a431.jpg" alt="Recuerdo 2" class="imagen">
+        <img src="https://i.pinimg.com/736x/88/11/7f/88117f18cb14064307fc5e2b98e3569b.jpg" alt="Recuerdo 3" class="imagen">
+    </div>
+    <div class="texto-neon">
+        <p><span>A pesar del paso del tiempo, nuestra amistad siguió creciendo.</span> Compartimos gustos, intereses y muchas conversaciones que nos hicieron darnos cuenta de cuánto nos parecemos. <span>Eso solo fortaleció nuestra conexión aún más.</span></p>
+    </div>
+
+    <h2 class="subtitulo">🌟 La Actualidad de una Maravillosa Amistad 🌟</h2>
+    <div class="imagenes-horizontal">
+        <img src="https://media.es.wired.com/photos/670442114bc5e5e431f67c1d/1:1/w_720,h_720,c_limit/ranma%20netflix.jpg" alt="Recuerdo 2" class="imagen">
+        <img src="https://cloudfront-eu-central-1.images.arcpublishing.com/prisaradiolos40/PM7FKV4GIFDYFCZL2JIZUUOPXE.jpg" alt="Recuerdo 3" class="imagen">
+    </div>
+    <div class="texto-neon">
+        <p><span>Nuestra amistad ha seguido fortaleciéndose con el tiempo.</span> Disfrutamos de conversaciones profundas, compartimos animes y mangas, y seguimos roleando juntos. <span>Cada momento que pasamos charlando hace que esta amistad sea aún más especial.</span></p>
+    </div>
+
+    <h2 class="subtitulo">🌟 Conclusión Final 🌟</h2>
+    <img src="https://i.pinimg.com/736x/0f/fd/61/0ffd61f6a9cc0dec888c229825672042.jpg" alt="Recuerdo 2" class="imagen">
+    <div class="texto-neon">
+        <p><span>Has sido la mejor amiga que he tenido.</span> Aprecio mucho cada momento a tu lado. <span>Cada charla, cada broma y cada recuerdo son valiosos para mí.</span> Espero que nuestra amistad siga creciendo y que este cumpleaños sea tan especial como tú. <span>¡Feliz cumpleaños, Ada! 🎂🎁</span></p>
+    </div>
+
+    <!-- Efecto de confeti -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0"></script>
+    <script>
+        window.onload = () => {
+            confetti({
+                particleCount: 200,
+                spread: 90,
+                origin: { y: 0.6 }
+            });
+        };
+
+        // Fondo que cambia cada 5 segundos con transición suave y mejor calidad
+        const images = [
+            "https://i.pinimg.com/736x/37/86/26/3786265fb08b7e4764a050c44575d188.jpg",
+            "https://i.pinimg.com/736x/32/12/ce/3212ce590785a4036e7ef5e7625660f3.jpg",
+            "https://i.pinimg.com/736x/80/42/f6/8042f62f52608dedf9621405d4a69733.jpg"
+        ];
+        let currentImage = 0;
+
+        function changeBackground() {
+            currentImage = (currentImage + 1) % images.length;
+            document.body.style.backgroundImage = `url(${images[currentImage]})`;
+        }
+
+        setInterval(changeBackground, 5000);
+    </script>
+</body>
+</html>
